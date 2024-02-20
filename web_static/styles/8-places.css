@@ -12,6 +12,8 @@
     border-radius: 4px;
     padding: 20px;
     margin: 20px;
+    display: inline-block;
+    min-height: 250px;
     vertical-align: top;
   }
   article h2 {
@@ -26,21 +28,23 @@
     min-width: 60px;
     height: 60px;
     line-height: 60px;
-    font-size: 30px
+    font-size: 30px;
+    position: relative;
+    float: right;
     top: -80px; 
   }
   div.information {
-    height: 75px;
+    height: 80px;
     border-top: 1px solid #DDDDDD;
     border-bottom: 1px solid #DDDDDD;
   }
   div.max_guest,
   div.number_rooms,
   div.number_bathrooms {
-    line-height: 120px;
+    line-height: 140px;
     width: 100px;
     height: 100%;
-    display: block;
+    display: inline-block;
     background-position: 50% 5px;
     background-repeat: no-repeat;
   }
@@ -57,6 +61,5 @@
   div.description {
     text-align: left;
     margin-bottom: 10px;
-    margin-top: 8px;
+    margin-top: 10px;
   }
-  
