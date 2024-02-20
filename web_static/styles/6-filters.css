@@ -1,0 +1,64 @@
+div.container {
+    max-width: 1000px;
+    margin: 30px auto;
+}
+section.filters {
+    background-color: white;
+    height: 70px;
+    width: 100px;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+
+}
+section.filters button {
+    background-color: #FF5A5F;
+    width: 22%;
+    heigth: 48px;
+    border: 0;
+    border-radius: 4px;
+    font-size: 18px;
+   
+    margin: 11px 30px;
+
+}
+section.filters button:hover {
+    opacity: 0.9;
+
+}
+.amenities, 
+.locations {
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+.locations {
+    border-right: 1px solid #DDDDDD;
+}
+.amenities h3,
+.locations h3 {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 60ft;
+    margin-left: 30px;
+}
+
+popover {
+    display: none;
+    background-color: #FAFAFA;
+    boder: 1px solid #DDDDDD;
+    border-radius: 4px;
+    position: relative;
+    z-index: 1;
+}
+.popover h2 {
+    font-size: 16px;
+}
+li {
+    list-style-type: none;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.locations:hover .popover,
+.amenities:hover .popover {
+    display: inline-block;
+}
