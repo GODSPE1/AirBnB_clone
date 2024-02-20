@@ -13,11 +13,12 @@ section.filters {
 section.filters button {
     background-color: #FF5A5F;
     width: 22%;
-    heigth: 48px;
+    height: 48px;
     border: 0;
     border-radius: 4px;
     font-size: 18px;
-   
+    color: #FFFFFF;
+    float: right;
     margin: 11px 30px;
 
 }
@@ -38,14 +39,16 @@ section.filters button:hover {
 .locations h3 {
     margin-top: 20px;
     font-size: 16px;
-    font-weight: 60ft;
+    font-weight: 600;
+    margin-bottom: 0px;
+    text-align: left;
     margin-left: 30px;
 }
 
 popover {
     display: none;
     background-color: #FAFAFA;
-    boder: 1px solid #DDDDDD;
+    border: 1px solid #DDDDDD;
     border-radius: 4px;
     position: relative;
     z-index: 1;
@@ -60,5 +63,5 @@ li {
 }
 .locations:hover .popover,
 .amenities:hover .popover {
-    display: inline-block;
+    display: block;
 }
